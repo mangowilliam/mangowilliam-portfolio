@@ -1,0 +1,26 @@
+
+  .btn{
+    color:  #4bcbcc;
+    
+}
+.home{
+    background-image: url("img/center.jpeg");
+    height: 300px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100% auto;
+    width: 100%;
+    color:;
+  }
+  a{
+    text-decoration: none;
+    margin: 10px;
+    margin-right:50px;
+  }
+  li{
+      margin-right:50px;
+  }
+  nav{
+    text-align: center;
+    height:50px;
+  }
