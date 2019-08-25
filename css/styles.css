@@ -1,32 +1,70 @@
-
+body{
+  margin: 0;
+  text-align: center;
+  padding-top: 80px;
+}
   .btn{
     color:  #4bcbcc;
     
 }
 .container{
     background-color: #baffff;
+    padding: 16px;
+    margin: 2px;
+    margin-top: 20px; 
 }
 .home{
     
-    height: 500px;
-    background-repeat: no-repeat;
+  
     text-align: center;
-    background-size: 100% auto;
-    width: 100%;
-    color:;
+    padding-top: 80px;
+   
+    
   }
-  #git{
+  #home img{
+    width: 33%;
+    float: left;
+    margin-right: 20px;
+  }
+  #home p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    animation: p 2s;
+  }
+  .git{
     height: 75px;
   }
-  a{
-    text-decoration: none;
-    margin: 10px;
-    margin-right:50px;
-  }
-  li{
-      margin-right:50px;
-  }
-  nav{
+ 
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 70px;
     text-align: center;
-    height:60px;
+    overflow: hidden;
+    background-color: #84ffff;
+
+
+ 
   }
+  .nava{
+  vertical-align: middle;
+  margin-top: 20px; 
+    
+  }
+    .navbar a {
+      
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      text-align: center;
+      padding:30px;
+      margin: 5px;
+    
+    }
+    
+    .navbar a:hover {
+      background-color: #baffff;
+      color: black;
+    }
