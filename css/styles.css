@@ -15,24 +15,57 @@ body{
 }
 .home{
     
-  
+ 
     text-align: center;
     padding-top: 80px;
    
     
   }
-  #home img{
+  #left{
     width: 33%;
     float: left;
-    margin-right: 20px;
+    margin-right: 50px;
+  }
+  #right{
+    width: 33%;
+    float: right;
+    margin-left: 50px;
+  }
+   h1,p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    animation: p 2s;
   }
   #home p{
     font-size: 1.3rem;
     line-height: 3rem;
     animation: p 2s;
   }
-  .git{
+  .img-circle{
+    height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ #technology img{
+  height: 100px;
+  padding:30px;
+ }
+ #project img{
+  height: 280px;
+  float: right;
+  margin-left: 20px;
+  width:  25%;
+}
+.space{
+  padding-top: 40px;
+}
+#project a{
+  text-decoration:none; 
+}
+  #contact img{
     height: 75px;
+    padding:30px;
   }
  
   .navbar{
