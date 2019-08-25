@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 # portfolio-mango
-=======
 # portfolio-mango
->>>>>>> 898f6a7c58797e04edb5344fcde8e77e48a2ddff
+
 
 # Created bY
 
