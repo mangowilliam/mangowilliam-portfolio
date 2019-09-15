@@ -46,8 +46,8 @@ body{
     animation: p 2s;
   }
   .img-circle{
-    height: 100px;
-    max-width: 100px;
+    height: 250px;
+    max-width: 200px;
     border-radius: 50%;
     object-fit: cover;
  }
